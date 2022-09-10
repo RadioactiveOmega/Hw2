@@ -192,7 +192,7 @@ public class ComplexExamples {
 
             System.out.println("Value:" + value);
 
-            if(i + value < people.size())                   // Skipping duplicates
+            if(i + value < people.size())                   // Skipping the same names
                 i+=value - 1;
             else
                 return;
