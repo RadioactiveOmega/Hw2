@@ -210,7 +210,7 @@ public class ComplexExamples {
         // Or use tht realization for print all pairs
 /*        IntStream.range(0, arr.length)
                 .forEach(i -> IntStream.range(0, arr.length)
-                        .filter(j -> i < j && arr[i] + arr[j] == sum).limit(1)
+                        .filter(j -> i < j && arr[i] + arr[j] == sum)
                         .forEach(j -> System.out.println(Arrays.toString(new int[]{arr[i], arr[j]})))); */
 
 
